@@ -7,6 +7,9 @@
     <packaging>pom</packaging>
     <name>unit-test</name>
 
+    <modules>
+        <module>powermock</module>
+    </modules>
     <build>
         <plugins>
             <plugin>
