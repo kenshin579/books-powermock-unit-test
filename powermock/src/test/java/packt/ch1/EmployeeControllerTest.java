@@ -8,9 +8,6 @@ import org.mockito.stubbing.Answer;
 import org.powermock.api.mockito.PowerMockito;
 
 /**
- * The class that holds all unit tests for
- * the EmployeeController class.
- *
  * @author Deep Shah
  */
 public class EmployeeControllerTest {
