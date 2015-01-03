@@ -1,4 +1,4 @@
-package packt.ch12;
+package packt.ch12_suppress;
 
 /**
  * The base class which
