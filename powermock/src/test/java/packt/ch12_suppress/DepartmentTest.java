@@ -19,7 +19,7 @@ import java.util.List;
  */
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(Department.class)
-@SuppressStaticInitializationFor("packt.ch12.BaseEntity") //static 부분은 suppress해줌
+@SuppressStaticInitializationFor("packt.ch12_suppress.BaseEntity") //static 부분은 suppress해줌
 public class DepartmentTest {
 
     @Test
