@@ -127,7 +127,7 @@ public class EmployeeServiceTest {
         Employee mock = PowerMockito.mock(Employee.class);
         PowerMockito.when(mock.isNew()).thenReturn(true);
 
-        PowerMockito.mockStatic(EmployeeIdGenerator.class);
+        PowerMockito.mockStatic(EmployeeIdGenerator.class); //final class에도 mockStatic을 해줘야 함
         PowerMockito.when(EmployeeIdGenerator.getNextId()).thenReturn(90);
 
         EmployeeService employeeService = new EmployeeService();
